@@ -7,7 +7,6 @@ Source: https://sketchfab.com/3d-models/react-logo-76174ceeba96487f9863f974636f6
 Title: React logo
 */
 
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function ReactLogo(props) {

@@ -13,7 +13,8 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 export default function Robot(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/robot-transformed.glb");
-  const { actions } = useAnimations(animations, group); // eslint-disable-next-line
+  // eslint-disable-next-line
+  const { actions } = useAnimations(animations, group);
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
