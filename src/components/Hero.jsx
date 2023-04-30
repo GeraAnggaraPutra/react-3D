@@ -12,6 +12,9 @@ const Section = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 768px) {
+    height: 200vh;
+  }
 `;
 
 const Container = styled.div`
@@ -20,6 +23,13 @@ const Container = styled.div`
   width: 1400px;
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const Left = styled.div`
@@ -28,10 +38,19 @@ const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+    align-items: center;
+  }
 `;
 
 const Title = styled.h1`
   font-size: 70 px;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const WhatWeDo = styled.div`
@@ -51,6 +70,10 @@ const Subtitle = styled.h2`
 const Desc = styled.p`
   font-size: 24px;
   color: lightgray;
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+    text-align: center;
+  }
 `;
 
 const Button = styled.button`
@@ -67,6 +90,10 @@ const Button = styled.button`
 const Right = styled.div`
   flex: 3;
   position: relative;
+  @media only screen and (max-width: 768px) {
+    flex: 1;
+    width: 100%;
+  }
 `;
 
 const Img = styled.img`
@@ -84,6 +111,10 @@ const Img = styled.img`
     to {
       transform: translateY(20px);
     }
+  }
+  @media only screen and (max-width: 768px) {
+    width: 300px;
+    height: 300px;
   }
 `;
 
