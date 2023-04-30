@@ -111,7 +111,7 @@ export const Contact = () => {
             />
             <Button type="submit">Send</Button>
             {success &&
-              "Your message has been sent. We'll get back to you soon :)"}
+              <span style={{ fontWeight: 'bold', color: '#53f7a8'}}>Your message has been sent. We'll get back to you soon. Thank you:)</span>}
           </Form>
         </Left>
         <Right>
