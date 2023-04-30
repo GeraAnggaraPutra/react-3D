@@ -7,7 +7,6 @@ Source: https://sketchfab.com/3d-models/social-media-hologram-9f05052a90454e398d
 Title: SOCIAL MEDIA HOLOGRAM
 */
 
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Sosmed(props) {

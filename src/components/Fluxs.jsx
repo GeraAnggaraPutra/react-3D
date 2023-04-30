@@ -7,7 +7,6 @@ Source: https://sketchfab.com/3d-models/fluxs-pit-stop-6bb8bd116e384d9f9e7041dbb
 Title: Flux's Pit Stop
 */
 
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Fluxs(props) {
