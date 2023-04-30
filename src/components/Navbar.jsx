@@ -27,7 +27,7 @@ const Links = styled.div`
   gap: 50px;
 `;
 const Logo = styled.h2`
-//   height: 50px;
+  font-weight: 900;
 `;
 const List = styled.ul`
   display: flex;
