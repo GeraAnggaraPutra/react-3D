@@ -102,12 +102,13 @@ export const Contact = () => {
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
             <Title>Contact Us</Title>
-            <Input placeholder="Name" name="name" />
-            <Input placeholder="Email" name="email" />
+            <Input placeholder="Name" name="name" type='text' required />
+            <Input placeholder="Email" name="email" type='email' required />
             <TextArea
               placeholder="Write your message"
               name="message"
               rows={10}
+              required
             />
             <Button type="submit">Send</Button>
             {success &&
